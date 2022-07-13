@@ -1,0 +1,29 @@
+{
+  "name": "e-commerce-restapi-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanswer/e-commerce-restapi-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanswer/e-commerce-restapi-node/issues"
+  },
+  "homepage": "https://github.com/allanswer/e-commerce-restapi-node#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19"
+  }
+}
